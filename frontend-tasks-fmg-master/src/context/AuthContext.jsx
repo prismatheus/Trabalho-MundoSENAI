@@ -27,7 +27,7 @@ function AuthProvider({ children }) {
 
     const login = async (email, password) => {
         try {
-            const response = await axios.post('https://trabalho-mundosenai.onrender.com', { email, password });
+            const response = await axios.post('https://trabalho-mundosenai.onrender.com/user/login', { email, password });
             
             // Log da resposta completa
             console.log("Resposta completa da API:", response.data);
