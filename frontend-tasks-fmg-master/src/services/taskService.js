@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_URL  = import.meta.env.VITE_API_URL || 'http://localhost:3131';
+const API_URL  = import.meta.env.VITE_API_URL || 'https://trabalho-mundosenai.onrender.com';
 console.log("API_URL:", API_URL); //
 
 export const createTask = async (description, token) => {
