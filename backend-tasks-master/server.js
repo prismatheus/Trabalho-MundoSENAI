@@ -12,26 +12,26 @@ app.use(express.json());
 
 app.use(
   cors(
-  //   {
+    {
 
-  //   origin: function (origin, callback) {
-  //     if (!origin) return callback(null, true);
+    origin: function (origin, callback) {
+      if (!origin) return callback(null, true);
 
-  //     const allowedOrigins = [
-  //       "http://localhost:5173/", 
-  //       "https://frontend-tasks-9juj.vercel.app/", 
-  //     ];
+      const allowedOrigins = [
+        "http://localhost:5173/", 
+        "https://trabalho-mundo-senai.vercel.app/", 
+      ];
 
-  //    const allowed = allowedOrigins.includes(origin) || origin.endsWith('.vercel.app');
+     const allowed = allowedOrigins.includes(origin) || origin.endsWith('.vercel.app');
 
-  //     if (allowed) {
-  //       callback(null, true);
-  //     } else {
-  //       callback(new Error("Não permitido por CORS"));
-  //     }
-  //   },
-  //   credentials: true,
-  // }
+      if (allowed) {
+        callback(null, true);
+      } else {
+        callback(new Error("Não permitido por CORS"));
+      }
+    },
+    credentials: true,
+  }
 )
 );
 app.use(router);
