@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #191919;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.App {
+  text-align: center;
+  /* padding: 2rem; */
+  /* color: #FFEB3B; */
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #4d60804e;
+  color: #fff;
+  border: none;
+  box-sizing: border-box;
+}

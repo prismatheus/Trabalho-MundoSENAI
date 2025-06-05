@@ -1,0 +1,48 @@
+body {
+  display: block;
+  margin: 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.home-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #191919; */
+  margin-bottom: 40px;
+  
+}
+
+.home-box Header {  
+  background-color: #2c65d0;
+}
+
+/* .button-container button {
+    background-color: #2e7d32;
+    box-shadow: 0px 0px 10px #25802a7c
+
+}*/
+/* .home-box button:hover {
+    background-color: #8f33d1;
+    box-shadow: 0px 0px 10px #6c0ab1
+
+}  */
+
+/* .button-container TaskButton:hover {
+  background-color: #5dc763;
+  box-shadow: 0px 0px 10px #2e7d327c;
+} */

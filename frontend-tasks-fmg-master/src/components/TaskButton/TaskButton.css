@@ -1,0 +1,10 @@
+.task-button {
+    background-color: #1b52d2;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.task-button:hover {
+    background-color: #0fe3ff;
+    color: rgb(21, 57, 116); 
+}

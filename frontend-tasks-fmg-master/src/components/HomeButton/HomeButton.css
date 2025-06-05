@@ -1,0 +1,17 @@
+.home-button {
+    background-color: transparent;
+    cursor: pointer;
+ 
+    box-shadow: 0px 0px 10px #533d7daf;
+
+    transition: all 0.3s ease;
+
+}
+
+.home-button:hover {
+    background-color: #2e7d32;
+    box-shadow: 0px 0px 10px #2e7d3296;
+
+}
+
+/* MUDAR COR DO BOTAO E ESTILO DA PAGINA */
